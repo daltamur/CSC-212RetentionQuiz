@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class highLowArrayProgram {
     public static void main(String[] args){
         Integer[] numberArray=new Integer[5];
@@ -6,8 +8,11 @@ public class highLowArrayProgram {
         numberArray[2]=3;
         numberArray[3]=4;
         numberArray[4]=0;
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Which array value do you want? (Highest is 5)");
+        int x=scanner.nextInt();
 
-        highLowMethod(numberArray, numberArray[0]);
+        highLowMethod(numberArray, numberArray[x-1]);
     }
 
     private static void highLowMethod(Integer[] numberArray, Integer integer) {
@@ -21,14 +26,14 @@ public class highLowArrayProgram {
                 contender=champion;
             }
         }
-        System.out.println(champion);
+        //System.out.println(champion);
         for (int x=0; x<numberArray.length; x++){
             contender2=numberArray[x];
             if(contender2<smallest){
                 smallest=contender2;
             }
         }
-        System.out.println(smallest);
+       // System.out.println(smallest);
         if(champion==integer){
             System.out.println("High Value");
         }else if(smallest==integer){
