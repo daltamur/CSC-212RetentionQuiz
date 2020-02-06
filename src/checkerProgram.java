@@ -26,7 +26,7 @@ public class checkerProgram {
     private static String closedSpaceRow(int length) {
         int i;
         String row="";
-        for(i=0; i<length; i++){
+        for(i=0; i<=length; i++){
             if (i%2==0){
                 row+="#";
             } else{
@@ -39,7 +39,7 @@ public class checkerProgram {
     private static String openSpaceRow(int length) {
         int i;
         String row="";
-        for(i=0; i<length; i++){
+        for(i=0; i<=length; i++){
             if(i%2==0){
                 row+=" ";
             }else{

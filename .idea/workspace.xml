@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f239dc8-25bf-48c0-87f8-a9321d2251c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/highLowArrayProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/highLowArrayProgram.java" afterDir="false" />
-    </list>
+    <list default="true" id="5f239dc8-25bf-48c0-87f8-a9321d2251c3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.highLowArrayProgram">
+  <component name="RunManager" selected="Application.checkerProgram">
     <configuration name="checkerProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="checkerProgram" />
       <module name="CSC-241" />
@@ -68,9 +66,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.checkerProgram" />
         <item itemvalue="Application.highLowArrayProgram" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.checkerProgram" />
       </list>
     </recent_temporary>
   </component>
